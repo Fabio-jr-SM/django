@@ -1,11 +1,7 @@
 # django
  Aprendizado Django com python
 
-## Projeto 1: Cadastro de usuarios simples
-![image](https://github.com/Fabio-jr-SM/django/assets/91484736/be40658c-02d4-4e7d-a894-46d370ab3eec)
-
-
-### 1. Instalação:
+## 1. Instalação:
 Certifique-se de ter o Python instalado em seu sistema. Em seguida, você pode instalar o Django usando o seguinte comando:
 
 ```md
@@ -48,3 +44,6 @@ Aplique as migrações ao banco de dados com o comando:
 ```md
 python manage.py migrate
 ```
+
+## Projeto 1: Cadastro de usuarios simples
+![image](https://github.com/Fabio-jr-SM/django/assets/91484736/be40658c-02d4-4e7d-a894-46d370ab3eec)
