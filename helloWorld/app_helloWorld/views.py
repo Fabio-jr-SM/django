@@ -1,4 +1,9 @@
 from django.shortcuts import render
+import random
 
 def home(resquest):
-    return render(resquest,'index.html',{'nome':'Fabão'})
+    dados = {
+        'nomes':['Tayane','Fabio','Claudinha'],
+        'numero': random.randint(0,20)
+    }
+    return render(resquest,'index.html',dados)

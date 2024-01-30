@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar bg-primary p-4">
         <div class="container-fluid">
             <a class="navbar-brand">Navbar</a>
             <form class="d-flex">
@@ -23,7 +23,21 @@
         </div>
     </nav>
 
-    <h1 style="text-align:center">Olá, {{nome}}</h1>
+    <div class="container p-4 bg-secondary mt-3 rounded-3" style="text-align:center">
+
+
+      {% for nome in nomes %}
+      <h1>Olá, {{nome}}</h1>
+      {% endfor %}
+
+      <h1>O numero {{numero}} é
+          {% if numero == 20 %}
+            vinte
+          {% else %}  
+            errou
+          {% endif %}
+      <h1>
+    </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
